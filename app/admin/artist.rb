@@ -1,4 +1,5 @@
 ActiveAdmin.register Artist do
+  permit_params :name, :bio, :contact
 
 
   # See permitted parameters documentation:
