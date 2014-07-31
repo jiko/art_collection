@@ -1,4 +1,5 @@
 ActiveAdmin.register Piece do
+  permit_params :price, :sold, :name
 
 
   # See permitted parameters documentation:
