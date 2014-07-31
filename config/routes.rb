@@ -1,4 +1,6 @@
 Rails.application.routes.draw do
+  get 'artworks/index'
+
   resources :pieces
 
   resources :artists
